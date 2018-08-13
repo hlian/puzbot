@@ -1,7 +1,5 @@
 import * as Koa from 'koa';
 import * as KoaBody from 'koa-body';
-import * as KoaMount from 'koa-mount';
-import * as KoaStatic from 'koa-static';
 
 import { RTMClient, WebClient } from '@slack/client';
 

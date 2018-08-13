@@ -1,9 +1,8 @@
 {
-  "name": "feelings.js",
+  "name": "puzbot",
   "version": "1.0.0",
-  "description": "formerly feelings.hs",
-  "main": "index.js",
-  "repository": "https://github.com/hlian/feelings.js",
+  "description": "a gentle slack robot",
+  "repository": "https://github.com/hlian/puzbot",
   "author": "hao",
   "license": "MIT",
   "scripts": {
@@ -13,31 +12,18 @@
   },
   "dependencies": {
     "@slack/client": "4.4.0",
-    "date-fns": "1.29.0",
     "koa": "2.5.2",
     "koa-body": "4.0.4",
     "koa-bodyparser": "4.2.1",
-    "koa-mount": "3.0.0",
-    "koa-router": "7.4.0",
-    "koa-static": "5.0.0",
-    "mustache": "2.3.0",
     "onchange": "4.0.0",
-    "typescript": "2.9.2",
-    "write-file-atomic": "2.3.0"
+    "typescript": "2.9.2"
   },
   "devDependencies": {
-    "@types/jest": "22.2.3",
     "@types/koa": "2.0.46",
     "@types/koa-bodyparser": "4.2.0",
-    "@types/koa-mount": "3.0.1",
-    "@types/koa-router": "7.0.31",
-    "@types/koa-static": "4.0.0",
-    "@types/mustache": "0.8.30",
     "@types/node": "10.1.2",
-    "@types/write-file-atomic": "2.1.1",
     "concurrently": "3.5.1",
     "fuse-box": "3.4.0",
-    "jest": "22.4.4",
     "prettier": "1.12.1",
     "tslint": "5.11.0"
   },
