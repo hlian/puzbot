@@ -8,9 +8,11 @@
   "license": "MIT",
   "scripts": {
     "test": "concurrently -n lint,tsc 'yarn jest' 'yarn tsc'",
-    "prettier-watch": "onchange 'fuse.js' 'server/**/*.ts' -- prettier --write {{changed}}"
+    "tslint": "tslint 'src/**/*.ts{,x}'",
+    "prettier-watch": "onchange 'fuse.js' 'src/**/*.ts' -- prettier --write {{changed}}"
   },
   "dependencies": {
+    "@slack/client": "4.4.0",
     "date-fns": "1.29.0",
     "koa": "2.5.2",
     "koa-body": "4.0.4",
