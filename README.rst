@@ -1,8 +1,8 @@
 .. parsed-literal::
 
-     **puzbot**
+       **puzbot**
     
-  a gentle robot
+    a gentle slack robot
   
   *to run*
   
